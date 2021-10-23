@@ -34,7 +34,7 @@ app.get("/getFile",(req,res)=>{
 });
 
 app.get("/",(req,res)=>{
-    res.send(`use url/createFile to create file and url/getFile to get file`);
+    res.send(`use https://filesystem-nodejs-zenclass.herokuapp.com/createFile to create file and https://filesystem-nodejs-zenclass.herokuapp.com//getFile to get file`);
 });
 
 app.listen(PORT, () => {
